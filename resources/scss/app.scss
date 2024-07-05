@@ -105,3 +105,21 @@ img {
     text-transform: uppercase;
     border-radius: 3px;
 }
+footer {
+    background-color: rgb(40, 37, 37);
+    color: whitesmoke;
+    padding: 30px;
+}
+.ft-container {
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+/* social */
+.fa {
+    color: rgb(40, 37, 37);
+    background-color: white;
+    font-size: xx-large;
+    margin: 5px;
+}
