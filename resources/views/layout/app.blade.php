@@ -1,5 +1,3 @@
-<!-- @dd($products); -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,8 +14,12 @@
     <!-- <img src="{{ Vite::asset('resources/img/logo.png') }}" alt=""> -->
     @include ('shared.header');
 
-    <h1>home app</h1>
+    @yield('main')
+
+
+
     @include ('shared.footer');
+
 
 
 

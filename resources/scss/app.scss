@@ -6,6 +6,31 @@ header {
         list-style-type: none;
     }
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row {
+    width: 100%;
+    padding-top: 50px;
+}
+.col-33 {
+    width: calc(100% / 3 - 20px);
+}
+.col-50 {
+    width: calc(100% / 2);
+    text-align: center;
+}
+.col-25 {
+    width: 25%;
+}
+
 /* contenitore per le immaggini dei prodotti */
 .content {
     position: relative;

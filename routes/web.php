@@ -20,5 +20,5 @@ Route::get('/', function () {
     ];
 
 
-    return view('app', $data);
+    return view('home', $data);
 });
