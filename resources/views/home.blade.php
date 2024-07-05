@@ -14,9 +14,9 @@
         <div class="content col-33">
             <!-- immagine prodotto -->
 
-            <img class="view" :src="{{$product['id']}}" alt="" />
+            <img class="view" src="img/{{$product['frontImage']}}" alt="" />
             <!-- immagine da visualizzare al passare del mouse -->
-            <img class="hover" :src="{{$product['id']}}" alt="" />
+            <img class="hover" :src="img/{{$product['backImage']}}" alt="" />
             <!-- contenitore cuori per aggiungere ai preferiti  -->
             <div class="heart-contain">
                 <!-- cuore diventa rosso al passare del mouse -->
