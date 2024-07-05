@@ -1,3 +1,5 @@
+<!-- @dd($products); -->
+
 <!DOCTYPE html>
 <html lang="en">
 

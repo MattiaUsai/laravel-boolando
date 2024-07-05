@@ -15,8 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     
+    $data = [
+        'products' => config('products')
+    ];
 
 
-
-    return view('app');
+    return view('app', $data);
 });
